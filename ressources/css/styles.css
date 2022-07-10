@@ -1,0 +1,290 @@
+/*  
+    1. Global
+    2. Header
+    3. Color
+    4. Typography
+    5. Button
+    6. Modal
+    7. Footer
+*/
+
+/*  1. G L O B A L  */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	margin: 0 auto;
+	width: 100%;
+}
+
+body {
+	max-width: 960px;
+	min-width: 450px;
+	margin: auto;
+	border-radius: 10px;
+	font-family: "Mulish", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+	margin: 0;
+	padding: 0;
+}
+
+.section {
+	border-bottom: 1px solid grey;
+	padding: 25px;
+	border-radius: 10px;
+	margin: 25px;
+	border: 1px solid #2bc0a1;
+}
+
+.section-description {
+	display: inline-block;
+	padding: 0 30px 30px 0;
+	vertical-align: top;
+	min-width: 160px;
+	width: 40%;
+}
+
+.section-content {
+	display: inline-block;
+	width: 60%;
+}
+
+.section-title {
+	margin-bottom: 10px;
+}
+
+/*  2. H E A D E R  */
+
+header {
+	height: 200px;
+	background-color: #e8f3f1;
+}
+
+header.section {
+	border: none;
+}
+
+#title {
+	font-size: 2.5rem;
+	margin-bottom: 15px;
+}
+
+.title-sub {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+/*  3. C O L O R  */
+
+.color {
+	margin-bottom: 20px;
+}
+
+.color:last-child {
+	margin-bottom: 0;
+}
+
+.color-grid {
+	display: grid;
+	margin-bottom: 5px;
+	height: 35px;
+	grid-template-columns: 2fr 1fr 1fr 1fr;
+	background-color: white;
+}
+
+.color-name span {
+	font-weight: 800;
+}
+
+.color-1 {
+	background-color: #2bc0a1;
+}
+
+.color-2 {
+	background-color: #5c9d8b;
+}
+
+.color-3 {
+	background-color: #e8f3f1;
+}
+
+.color-4 {
+	background-color: #826ab6;
+}
+
+._75 {
+	opacity: 75%;
+}
+
+._50 {
+	opacity: 50%;
+}
+
+._25 {
+	opacity: 25%;
+}
+
+/*  4. T Y P O G R A P H Y  */
+
+.type {
+	margin-bottom: 25px;
+}
+
+.type:last-child {
+	margin-bottom: 0;
+}
+
+.type-class {
+	margin-bottom: 8px;
+}
+
+.type-sample {
+	margin-bottom: 30px;
+	font-weight: 800;
+	color: #2bc0a1;
+}
+
+#aa {
+	font-size: 4.5rem;
+	line-height: 0.8;
+}
+
+#mulish {
+	font-size: 2rem;
+	margin-top: 5px;
+	letter-spacing: 1px;
+}
+
+/*  5. B U T T O N S  */
+
+.btn {
+	width: 220px;
+	height: 50px;
+	border-radius: 25px;
+	margin: 0px 10px 20px 0;
+	display: inline-block;
+	color: white;
+	cursor: pointer;
+	vertical-align: top;
+	font-size: 1rem;
+	font-weight: 600;
+	border: none;
+}
+
+.main {
+	background-color: #826ab6;
+}
+
+.sec {
+	border: 2px solid #826ab6;
+	color: black;
+	background-color: #fff;
+}
+
+.btn-type {
+	font-weight: 800;
+	margin-bottom: 35px;
+}
+
+.btn-type:last-child {
+	margin-bottom: -20px;
+}
+
+.round {
+	width: 50px;
+}
+
+.main.hover {
+	background-color: #5d4c81;
+}
+
+.sec.hover {
+	border-color: #5d4c81;
+	background-color: #826ab622;
+}
+
+.disabled {
+	opacity: 30%;
+	cursor: not-allowed;
+}
+
+img {
+	width: 18px;
+}
+
+/*  6. M O D A L  */
+
+.modal {
+	border-radius: 10px;
+	background-color: #e8f3f1;
+	box-shadow: 3px 3px 6px rgb(210, 210, 210);
+}
+
+.modal-top {
+	display: flex;
+	padding: 0px 10px;
+	border-radius: 10px 10px 0 0;
+	justify-content: flex-end;
+	align-items: center;
+	height: 50px;
+	background-color: #2bc0a1;
+}
+
+.modal-middle {
+	display: flex;
+	justify-content: center;
+	height: 200px;
+	padding: 20px;
+}
+
+.modal-bottom {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 70px;
+	border-top: 0.5px solid grey;
+}
+
+.modal-bottom .round {
+	background-color: transparent;
+}
+
+.modal-bottom .btn {
+	margin: 0 10px;
+}
+
+.modal-check {
+	width: 70px;
+	margin-right: 30px;
+}
+
+.modal-maintext {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 70%;
+	padding: auto;
+    font-size: 1.2em;
+}
+
+/*  7. F O O T E R  */
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px auto;
+	padding: 0 25px;
+}
+
+footer p {
+	font-size: 14px;
+}

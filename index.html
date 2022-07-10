@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+       <title>My first Styleguide</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
+        <link href="ressources/css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+    
+        <!--  H E A D E R  -->
+
+        <header class="section">
+        <h1 id="title">Styleguide</h1>
+        <p class="title-sub">These fundamental elements make
+            <br>up our visual design language
+        </p>
+       </header>
+
+       <main>
+
+        <!--  C O L O R S  -->
+
+        <div class="section">
+            <div class="section-description">
+                <h2 class="section-title">Colors</h2>
+                <p class="section-subtext">Primaries and neutrals</p>
+            </div><!--
+
+            --><div class="section-content">
+                <div class="color">
+                    <div class="color-grid">
+                        <div class="color-1"></div>
+                        <div class="color-1 _75"></div>
+                        <div class="color-1 _50"></div>
+                        <div class="color-1 _25"></div>
+                    </div>
+                    <p class="color-name"><span>Primary color</span>
+                    <br>#2bc0a1</p>
+                </div>
+                <div class="color">           
+                    <div class="color-grid">
+                        <div class="color-2"></div>
+                        <div class="color-2 _75"></div>
+                        <div class="color-2 _50"></div>            
+                        <div class="color-2 _25"></div>                                   
+                    </div>
+                    <p class="color-name"><span>Secondary color</span>
+                    <br>#5c9d8b</p>
+                </div>
+                <div class="color">
+                    <div class="color-grid">
+                        <div class="color-3"></div>
+                        <div class="color-3 _75"></div>
+                        <div class="color-3 _50"></div>
+                        <div class="color-3 _25"></div>
+                    </div>
+                    <p class="color-name"><span>Neutral color</span>
+                    <br>#e8f3f1</p>
+                </div>
+                 <div class="color">
+                     <div class="color-grid">
+                        <div class="color-4"></div>
+                        <div class="color-4 _75"></div>
+                        <div class="color-4 _50"></div>
+                        <div class="color-4 _25"></div>
+                    </div>
+                    <p class="color-name"><span>Highlight color</span>
+                    <br>#826ab6</p>
+                </div>
+         </div>
+       
+        </div>
+
+        <!--  T Y P O G R A P H Y  -->
+
+        <div class="section">
+            <div class="section-description">
+                <h2 class="section-title">Typography</h2>
+                <p class="section-subtext">Styles for Headlines and paragraphs</p>
+            </div><!--
+
+            --><div class="section-content">
+                <div class="type-sample">
+                    <div id="aa">Aa</div>
+                    <div id="mulish">Mulish</div>
+                </div>
+                <div class="type">
+                    <h1 class="type-class">Headline 1</h1>
+                    <p class="type-description">Main Title (3.5 rem)</p>
+                </div>
+                <div class="type">
+                        <h2 class="type-class">Headline 2</h2>
+                        <p class="type-description">Chapter title (2.2 rem)</p>
+                </div>
+                <div class="type">
+                        <h3 class="type-class">Headline 3</h3>
+                        <p class="type-description">Article title (1.5 rem)</p>
+                </div>
+                <div class="type">
+                        <p class="type-class">The placeholder text, beginning with the line “Lorem ipsum dolor sit amet, consectetur adipiscing elit”, looks like Latin because in its youth, centuries ago, it was Latin. </p>
+                        <p class="type-description">Paragraph Text (1 rem)</p>
+                </div>
+             </div>
+             </div>
+
+             <!--  B U T T O N S  -->
+
+            <div class="section">
+                 <div class="section-description">
+                     <h2 class="section-title">Buttons</h2>
+                     <p class="section-subtext">Primary and secondary buttons with hover and disabled states</p>
+                 </div><!--
+        
+              --><div class="section-content">
+                    <div class="btn-type">
+                        <button class="btn main">Sign Up</button>
+                        <button class="btn main round"><img src="./ressources/icon/pen-white.svg"></button>
+                        <button class="btn main hover">Sign Up</button>
+                        <button class="btn main round hover"><img src="./ressources/icon/pen-white.svg"></button>
+                        <button class="btn main disabled">Sign Up</button>
+                        <button class="btn main round disabled"><img src="./ressources/icon/pen-white.svg"></button>
+                    </div>
+                     <div class="btn-type">
+                        <button class="btn sec">More Options</button>
+                        <button class="btn sec round"><img src="./ressources/icon/question.svg"></button>
+                        <button class="btn sec hover">More Options</button>
+                        <button class="btn sec round hover"><img src="./ressources/icon/question.svg"></button>
+                        <button class="btn sec disabled">More Options</button>
+                        <button class="btn sec round disabled"><img src="./ressources/icon/question.svg"></button>
+                    </div>
+                </div>
+            </div>
+
+             <!--  M O D A L  -->
+
+             <div class="section">
+                <div class="section-description">
+                    <h2 class="section-title">Modal</h2>
+                    <p class="section-subtext">Pop-up message on successful sign up.</p>
+                </div><!--
+       
+             --><div class="section-content">
+                    <div class="modal">
+                        <div class="modal-top">
+                            <img src="./ressources/icon/cross.svg">
+                        </div>
+                        <div class="modal-middle">
+                            <img src="./ressources/icon/check-mark.svg" class="modal-check" >
+                            <div class="modal-maintext">
+                                <h2>Great!</h2>
+                                <p >Your account has been created successfully.</p> 
+                            </div>
+                            
+                        </div>
+                        <div class="modal-bottom">
+                            <button class="btn sec round"><img src="./ressources/icon/question.svg"></button>
+                            <button class="btn main">Start Exploring</button>
+                        </div>
+                        </div>
+                 </div>
+           </div>
+
+       </main>
+       <footer>
+        <p>Lorenz Perszyk</p>
+        <p>2022</p>
+       </footer>
+    
+    
+    
+    </body>
+
+</html>
